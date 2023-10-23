@@ -1,0 +1,10 @@
+body{
+    background-color: chartreuse;
+}
+.snap img{
+    box-shadow: 4px 4px 8px rebeccapurple;
+    border-radius:  40px;
+}
+.snap img :hover{
+    size: 3.5rem;
+}
