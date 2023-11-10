@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background-image {
+    background-image: url('AIPIC.webp');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    font-family:font-family: Arial, sans-serif;/*system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+    font-size: 2.5rem;
+    color: aqua;
+    margin: 40px;
+    text-shadow: 10px 12px 14px blue;
+}
+.prompt{
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 10px;
+    
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.project-box {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: transform 0.2s;
+    box-shadow:  2px 3px 5px rgb(227, 243, 3);
+}
+
+.project-box:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 3px 5px green;
+}
+
+.project-details {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.project-box:hover .project-details {
+    display: block;
+}
