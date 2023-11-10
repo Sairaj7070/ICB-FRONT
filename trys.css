@@ -67,4 +67,5 @@ body {
 
 .project-box:hover .project-details {
     display: block;
+    box-shadow: 5px 5px 10px green;
 }
