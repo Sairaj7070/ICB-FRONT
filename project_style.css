@@ -14,32 +14,36 @@ body {
     top: 0;
     left: 0;
 }
-.header{
-    display: flex;
-    justify-content: space-around;
-}
-.logo{
-    font-family:font-family: Arial, sans-serif;/*system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
-    font-size: 2.5rem;
-    color: aqua;
-    margin: 40px;
-    text-shadow: 10px 12px 14px blue;
-}
-.prompt{
-    background-color: rgba(255, 255, 255, 0.2);
-    margin: 10px;
-    
-}
 
 .project-container {
     display: flex;
+    flex-wrap: wrap; /* Allow projects to wrap onto the next line */
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 1%;
+    margin-bottom: 200px;
 }
 
+
+.project-set {
+    display: flex;
+    padding-bottom:90px;
+}
+
+/* Add the following CSS for space between lines */
+.project-set + .project-set {
+    margin-top: 300px; /* Adjust the space between lines as needed */
+}
+
+
+.project-set + .project-set + .project-set {
+    margin-top: 600px; /* Adjust the space between lines as needed */
+}
+
+
+
 .project-box {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.7);
     margin: 10px;
     padding: 20px;
     cursor: pointer;
@@ -47,12 +51,10 @@ body {
     font-weight: bold;
     text-align: center;
     transition: transform 0.2s;
-    box-shadow:  2px 3px 5px rgb(227, 243, 3);
 }
-
+g
 .project-box:hover {
     transform: scale(1.1);
-    box-shadow: 2px 3px 5px green;
 }
 
 .project-details {
@@ -67,5 +69,4 @@ body {
 
 .project-box:hover .project-details {
     display: block;
-    box-shadow: 5px 5px 10px green;
 }
