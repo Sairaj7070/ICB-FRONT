@@ -69,15 +69,388 @@ nav ul li a {
     border-radius: 40px;
     box-shadow: 5px 5px 10px rgba(236, 228, 228, 0.5);
 }
-.namec{ /*name sairaj using span*/
+.rightsection:hover{
+    size: 50px;
+}
+.namec{
     color: rgb(204, 31, 204);
     font-weight:900;
     text-shadow: 1.5px 1.5px 2px rgb(8, 206, 241)                                                                                                     
 }
 #element{
     color: aqua;
-    text-shadow: 2px 2px 4px rgb(250, 225, 4)
+    text-shadow: 2px 2px 4px 6px rgb(250, 225, 4)
 }
+.secondsection{
+    max-width: 80vw;
+    height: 42vh;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 4px lightsalmon;
+}
+.cert img{
+    margin-top: 40px;
+    margin-left: 10px;
+    width:"100px";
+    height:"100px";
+    transition:transform  0.5s ease ;
+}
+.cert img:hover{
+transform:scale(3.2);
+}
+.cert img{
+    margin-top: 45px;
+    margin-left: 10px;
+    width:"100px";
+    height:"100px";
+    transition:transform  0.5s ease ;
+}
+/*kill boxes */
+.box {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 30px; /* between boxes */
+    
+}
+
+.skill {/*p2 skills */
+    background-color: #f0f0f0; 
+    padding: 30px; 
+margin-top: 20px;
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+}
+
+.additional-content {
+    background-color: yellow;
+    box-shadow: 5px 6px 10px green;
+    margin-top: 170px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+    
+}
+
+.contact-text {
+    color: white;
+    text-shadow: 4px 6px 10px blue;
+    background-color: rgb(0, 255, 42);
+    box-shadow: 4px 4px 6px rgb(110, 190, 110);
+    width: 90px;
+    
+    display: block;
+    margin-top: 20px; 
+   font-size: 18px; 
+}
+.contact-text:hover{
+    width: 92px;
+    font-size: 25px;
+}
+.index{
+ margin-top: 5px;
+ padding-top: 15px ;    
+}
+.index img.img1{
+    border-radius: 70px 70px 70px 70px;
+margin-top: 5px;
+transition: transform 0.5s ease;
+
+}
+.index img.img1:hover{
+    transform: scale(1.5);
+    /*margin-left: 20px;*/
+    box-shadow: 4px 4px 4px goldenrod;
+}
+.index img.img2{
+    border-radius: 70px 70px 70px 70px;
+margin-top: 10px;
+transition: transform 0.5s ease;
+}
+.index img.img2:hover{
+    transform: scale(1.5);
+    /*margin-left: 20px;*/
+    box-shadow: 4px 4px 4px goldenrod;
+}
+.index img.img3{
+    border-radius: 70px 70px 70px 70px;
+margin-top: 10px;
+transition: transform 0.5s ease;
+}
+.index img.img3:hover{
+    transform: scale(1.5);
+    /*margin-left: 20px;*/
+    box-shadow: 4px 4px 4px goldenrod;
+}
+#sk1 {
+    
+    transition: transform 0.5s ease; 
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#sk1:hover {
+    transform: scale(1.5); 
+}
+#sk2 {
+    
+    transition: transform 0.5s ease;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+
+#sk2:hover {
+    transform: scale(1.5); /
+}
+#sk3{
+    transition: transform 0.5s ease;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#sk3:hover{
+    transform: scale(1.5);
+}
+#sk4 {
+    
+    transition: transform 0.5s ease;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+
+#sk4:hover {
+    transform: scale(1.5); 
+}
+#sk5 {
+    
+    transition: transform 0.5s ease; 
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+#sk5:hover {
+    transform: scale(1.5); 
+}
+#sk6 {
+    
+    transition: transform 0.5s ease; 
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#sk6:hover {
+    transform: scale(1.5); 
+}
+#sk7 {
+    
+    transition: transform 0.5s ease;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+
+#sk7:hover {
+    transform: scale(1.5); 
+}#sk8 {
+    
+    transition: transform 0.5s ease;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+
+#sk8:hover {
+    transform: scale(1.5); 
+}#sk9 {
+    
+    transition: transform 0.5s ease;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+
+#sk9:hover {
+    transform: scale(1.5); 
+}
+#sk10{
+
+    transition: transform 0.5s ease;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+#sk10:hover{
+    transform: scale(1.5);
+}
+/*skill w */
+.skill_text{
+    background-color: rgb(48, 1, 75)5, 160;
+    font-weight: normal;
+    box-shadow: 4px 6px 7px rgb(142, 146, 142);
+    border-radius: 30px 30px 30px 30px;
+    width: 11%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+.CERT{
+    background-color:rgb(48, 1, 75)5, 160;
+    box-shadow: 4px 6px 7px rgb(12, 216, 12);
+    border-radius: 30px 30px 30px 30px;
+    padding-left: 7px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 7%;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    margin-top: 25px;    
+
+}
+/*#arrow{
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 10px solid #000; 
+    margin-left: 7px; 
+    
+}*/
+.services{
+    background-color: rgb(48, 1, 75)5, 160;
+    padding-left: 15px;
+    margin-top: 20px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*.front_end{
+    background-color: darkcyan;
+    width: 10%;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+.NLP_DEV{
+    background-color: blueviolet;
+    width: 10%;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}*/
+.box2ser {
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 60px; /* between boxes */
+    background-color: rgb(2, 2, 63);
+    margin-left: 110px;
+    margin-right: 110px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 2px lightblue;
+    
+}
+.front_end {
+    background-color: darkcyan;
+    width: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: transform 0.5s ease; 
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.front_end:hover .front_service {
+    display: block;
+    background-color: aliceblue;
+    height: 120px;
+    width: 120px;
+    transform: scale(1.5);
+
+}
+
+.NLP_DEV {
+    background-color: blueviolet;
+    width: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: transform 0.5s ease; 
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.prompt{
+    background-color: rgb(86, 226, 43);
+    width:10%;
+    transition: transform 0.5s ease; 
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.proj{
+    background-color: rgb(226, 86, 43);
+    width:10%;
+    transition: transform 0.5s ease; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sol{
+    background-color: rgb(226, 43, 226);
+    width:12%;
+    transition: transform 0.5s ease; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.flip_img{
+    width: 80%;
+    margin: 50px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(236, 228, 228, 0.5);
+    transition: opacity 0.3s ease;
+
+}
+.flip_img:hover{
+    opacity: 0;/*hiding img1*/
+}
+.flip_img:hover::after{
+    content: url('myorgimg.jpeg');
+    display: flex;
+    position: absolute;
+    width: 80%;
+    margin: 50px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(236, 228, 228, 0.5);
+     transition: opacity 0.3s ease; 
+    opacity: 1; 
+    
+}
+.image_container{
+    position: relative;
+    width: 80%;
+    margin: 50px;
+}
+.achiv{
+    background-color: rgb(48, 1, 75)5, 160;
+    border-radius: 30px;
+    margin-top: 50px; 
+    width: 12%;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 4px 4px 4px 4px darkmagenta ;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    margin-left: 110px;
+    margin-right: 20px;
+}
+.text_move{
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+  
 
   
     
@@ -119,28 +492,3 @@ nav ul li a {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    ;
-}
